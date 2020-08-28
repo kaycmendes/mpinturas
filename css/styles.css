@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&display=swap');
 
 * {
   box-sizing: border-box;
@@ -37,15 +39,16 @@ body {
   color: white;
   margin: auto;
   font-size: 1em;
+  margin-top: 1em;
 }
 
 
 .logobar {
   display: flexbox;
-  margin: -39px auto;
-  margin-bottom: 15px;
-  height: 169px;
-  width: 169px;
+  margin: -20px auto;
+  margin-bottom: 6px;
+  height: 124px;
+  width: 170px;
 }
 
 li {
@@ -58,24 +61,31 @@ a {
 }
 
 .banner {
-  font-family: 'Allerta Stencil', sans-serif;
+  height: 65vh;
   flex-direction: column;
   text-align: center;
   width: 100%;
-  padding: 7.5em;
   color: white;
-  background: linear-gradient(0deg, #fff, transparent 80%),
+  background: linear-gradient(0deg, #fff, transparent 1%),
     linear-gradient(to bottom, #003a52, transparent 80%),
     url('../image/house.jpg') center no-repeat;
-  height: 26.8vw;
-  background-size: contain;
+  border-radius: 0px;
 }
 
 .banner h1 {
+  font-family: 'Kanit', sans-serif;
   font-size: 4.1em;
-  margin-bottom: -1em;
   margin: auto;
   text-shadow: 0.2px 2px 1px #222;
+}
+
+.banner h4 {
+  font-family: 'Kanit', sans-serif 'lighter';
+  font-weight: 200;
+  border-top: 5px solid #009e9d;
+  width: max-content;
+  margin: 37px auto;
+  padding-top: 30px;
 }
 
 .process {
@@ -92,21 +102,21 @@ a {
 
 .banner-btn {
   background-color: #000000a6;
-  font-size: 1.5em;
-  margin: auto;
-  margin-top: 3em;
-  width: auto;
+  font-size: 1.2em;
+  margin-top: 1em;
+  width: -moz-max-content;
+  margin: 49px auto;
+  padding: .9em;
   border-radius: 30px;
-  padding: 1em;
+
 }
 
 .content {
   padding: 25px 0;
-  width: 85%;
   margin: 0 auto;
   border-top: 2px solid rgba(119, 136, 153, 0.493);
   border-bottom: 2px solid rgba(119, 136, 153, 0.493);
-  margin-top: 55px;
+  margin-top: 1vw
 }
 
 .icon {
@@ -117,6 +127,7 @@ a {
 
 .col {
   padding: 10px;
+  flex-basis: auto;
 }
 
 .content,
@@ -213,4 +224,60 @@ article {
   text-align: center;
   width: 70%;
   margin: auto;
+  margin-top: 2vw;
+}
+
+.content-intro .title::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 5px;
+  background: #a6a6a5;
+  position: absolute;
+  top: 23px;
+  left: 0;
+}
+
+.content-intro .title h3 {
+  background: #fff;
+  position: relative;
+  z-index: 10;
+  width: 11vh;
+  margin: auto;
+}
+
+
+@media (min-width: 768px) {
+  .col-md-6 {
+    max-width: 40%;
+    margin-left: 40px;
+  }
+}
+
+
+
+.content-intro {
+  width: 80%;
+}
+
+.wave {
+  position: absolute;
+  top: -5.2vw;
+  width: 110vw;
+  left: -54px;
+}
+
+
+.wave-parent {
+  position: sticky;
+  left: 0;
+  bottom: 5vw;
+  width: 100%;
+}
+
+.banner-info {
+  margin: auto;
+  letter-spacing: 0.1em;
+  top: -2rem;
+  position: relative;
 }
