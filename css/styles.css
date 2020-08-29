@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+
 
 * {
   box-sizing: border-box;
@@ -18,7 +19,7 @@ body {
 
 .nav-container {
   margin: 0 auto;
-  background: #003a52;
+  background: #003751;
   width: 100%;
 }
 
@@ -45,10 +46,10 @@ body {
 
 .logobar {
   display: flexbox;
-  margin: -20px auto;
+  margin: -8px auto;
   margin-bottom: 6px;
-  height: 124px;
-  width: 170px;
+  height: 102px;
+  width: auto;
 }
 
 li {
@@ -61,14 +62,12 @@ a {
 }
 
 .banner {
-  height: 65vh;
+  height: 74vh;
   flex-direction: column;
   text-align: center;
   width: 100%;
   color: white;
-  background: linear-gradient(0deg, #fff, transparent 1%),
-    linear-gradient(to bottom, #003a52, transparent 80%),
-    url('../image/house.jpg') center no-repeat;
+  background: linear-gradient(0deg, #fff, transparent 1%), linear-gradient(to bottom, #003a52, transparent 55%), url('../image/house.jpg') center no-repeat;
   border-radius: 0px;
 }
 
@@ -81,11 +80,14 @@ a {
 
 .banner h4 {
   font-family: 'Kanit', sans-serif 'lighter';
-  font-weight: 200;
-  border-top: 5px solid #009e9d;
-  width: max-content;
+  font-weight: 500;
+  width: 76%;
   margin: 37px auto;
-  padding-top: 30px;
+  padding-top: 10px;
+  border-top: 5px solid #24cccbd4;
+  color: #0dc0bb;
+  background: blanchedalmond;
+  font-size: 1.7em;
 }
 
 .process {
@@ -101,13 +103,13 @@ a {
 }
 
 .banner-btn {
-  background-color: #000000a6;
-  font-size: 1.2em;
+  font-size: 1.5em;
   margin-top: 1em;
-  width: -moz-max-content;
+  width: max-content;
   margin: 49px auto;
-  padding: .9em;
   border-radius: 30px;
+  background-color: #009e9dbf;
+  padding: 0.5em;
 
 }
 
@@ -224,6 +226,7 @@ article {
   text-align: center;
   width: 70%;
   margin: auto;
+
   margin-top: 2vw;
 }
 
@@ -242,8 +245,18 @@ article {
   background: #fff;
   position: relative;
   z-index: 10;
-  width: 11vh;
   margin: auto;
+  font-weight: bolder;
+}
+
+.title.how h3 {
+  width: 14vh;
+  margin-bottom: 1em;
+}
+
+.title.why h3 {
+  margin-bottom: 1em;
+  width: 18vh;
 }
 
 
@@ -257,13 +270,16 @@ article {
 
 
 .content-intro {
-  width: 80%;
+  font-family: 'Open Sans', sans-serif 'bolder';
+  width: 89%;
+  font-size: 1.1em;
+  line-height: 33px;
 }
 
 .wave {
   position: absolute;
   top: -5.2vw;
-  width: 110vw;
+  width: 101.5vw;
   left: -54px;
 }
 
@@ -276,8 +292,15 @@ article {
 }
 
 .banner-info {
+  font-family: 'Open Sans', sans-serif;
   margin: auto;
   letter-spacing: 0.1em;
-  top: -2rem;
+  top: 2rem;
   position: relative;
+  font-size: 1em;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
 }
