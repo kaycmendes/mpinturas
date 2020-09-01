@@ -20,6 +20,12 @@ body {
 
 }
 
+a{ 
+  text-decoration: none !important;
+}
+
+
+
 .nav-container {
   margin: 0 auto;
   background: #fff;
@@ -68,7 +74,7 @@ a {
 }
 
 .banner {
-  height: 74vh;
+  height: 98vh;
   flex-direction: column;
   text-align: center;
   width: 100%;
@@ -105,20 +111,27 @@ a {
 
 
 
-.banner a {
-  color: whitesmoke;
-}
+
 
 .banner-btn {
   font-size: 1.5em;
   margin-top: 1em;
   width: max-content;
   margin: 49px auto;
-  border-radius: 30px;
-  background-color: #000;
+  border-radius: 6px;
   padding: 0.5em;
-
+  background-color: #000;
 }
+
+.banner-btn:hover{
+  color: black;
+  background-color: #ffff;
+  transition: width 1s, height 1s, ease 0.5s;
+}
+.banner-btn:hover a{
+  color: black;
+}
+
 
 .content {
   padding: 65px 0;
