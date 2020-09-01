@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
 
 * {
   box-sizing: border-box;
@@ -25,6 +25,7 @@ body {
   background: #fff;
   width: 100%;
   position: fixed;
+  font-family: 'Work Sans', sans-serif ;
   z-index: 20;
 }
 
@@ -72,8 +73,8 @@ a {
   text-align: center;
   width: 100%;
   color: white;
-  background: url('../image/house.jpg');
-
+  background: url('http://cdn.home-designing.com/wp-content/uploads/2017/11/black-block-sofa-white-walls-minimalist-tv-room.jpg');
+  background-size: cover;
   border-radius: 0px;
 }
 
@@ -90,9 +91,9 @@ a {
   width: 76%;
   margin: 37px auto;
   padding-top: 10px;
-  border-top: 5px solid #ffde61;
   color: #000;
-  background: blanchedalmond;
+  border-top: 5px solid #fff;
+  background: #ede4c1e6;
   font-size: 1.7em;
 }
 
@@ -124,7 +125,7 @@ a {
   margin: 0 auto;
   border-top: 2px solid rgba(119, 136, 153, 0.493);
   border-bottom: 2px solid rgba(119, 136, 153, 0.493);
-  margin-top: 1vw
+  margin-top: 5vw
 }
 
 .icon {
@@ -335,7 +336,7 @@ article {
 }
 
 .wave>path:nth-child(1) {
-  fill: #ffde61;
+  fill: #dee1e6;
 }
 
 .features .feature_detail .wrap {
@@ -433,4 +434,9 @@ h3 {
 
 .container a {
   border-bottom: #ffde61 6px solid;
+}
+
+.bg-light {
+  width: 75%;
+  margin: auto;
 }
