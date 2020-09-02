@@ -14,13 +14,12 @@ body {
   line-height: 1.6em;
   font-size: 1em;
   display: flex;
-  min-height: 100vh;
   flex-direction: column;
   background: #DEE1E6;
 
 }
 
-a{ 
+a {
   text-decoration: none !important;
 }
 
@@ -31,7 +30,7 @@ a{
   background: #fff;
   width: 100%;
   position: fixed;
-  font-family: 'Work Sans', sans-serif ;
+  font-family: 'Work Sans', sans-serif;
   z-index: 20;
 }
 
@@ -123,12 +122,13 @@ a {
   background-color: #000;
 }
 
-.banner-btn:hover{
+.banner-btn:hover {
   color: black;
   background-color: #ffff;
   transition: width 1s, height 1s, ease 0.5s;
 }
-.banner-btn:hover a{
+
+.banner-btn:hover a {
   color: black;
 }
 
@@ -183,10 +183,15 @@ a {
 
 .form {
   width: 100%;
+  background: white;
   display: block;
-
-  padding: 10px;
+  box-shadow: .5em 0 2em rgba(41, 41, 41, 0.29);
+  padding: 2em;
+  margin: auto;
+  border-radius: 15px;
+  margin-top: 4vh;
 }
+
 
 input[type="text"],
 input[type="email"],
@@ -232,11 +237,14 @@ legend {
 }
 
 .form-container {
-  background: #f4f4f4a2;
+  background: #fbf2ac;
+  padding: 5em;
   width: 100%;
   margin-top: 50px;
   border: none;
 }
+
+
 
 article {
   width: 60%;
