@@ -17,7 +17,7 @@
     <header class="nav-container">
         <nav class="navbar navbar-expand-md bg-light navbar-light ">
             <!-- Brand -->
-            <a class="navbar-brand" href="#"><img class="logobar" src="image/Mm-1.png" height="55" alt=""> </a>
+            <a class="navbar-brand" href="#"><img class="logobar" src="../image/Mm-1.png" height="55" alt=""> </a>
 
             <!-- Toggler/collapsibe Button -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -30,9 +30,19 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">INÍCIO</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">SERVIÇOS</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            SERVIÇOS
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Pinturas de portas e janelas</a>
+                            <a class="dropdown-item" href="#">Pinturas Interior</a>
+                            <a class="dropdown-item" href="#">Pinturas Exterior</a>
+                            <a class="dropdown-item" href="#">Textura</a>
+                        </div>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#">CONTATO</a>
                     </li>
@@ -41,7 +51,7 @@
                         <a class="nav-link" href="#">SOBRE</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">(31)98818-6674 <img class="wp" src="image/whatsapp.png" height="0"
+                        <a class="nav-link" href="#">(31) 98818-6674 <img class="wp" src="image/whatsapp.png" height="0"
                                 alt=""> </a>
                     </li>
                 </ul>
@@ -52,8 +62,8 @@
     <div class="banner jumbotron">
         <div class="banner-info">
             <h1>PINTURAS DE INTERIOR</h1>
-            <h4>SERVIÇOS DE PINTURA NA SUA AREA</h4>
-            <h2 class='banner-btn'><a href="./html/contact.html">FAÇA UM ORÇAMENTO</a> </h2>
+            <h4>AGORA EM TODA GRANDE BH</h4>
+            <h2 class='banner-btn'><a href="/contact.html">FAÇA UM ORÇAMENTO</a> </h2>
         </div>
         <div class="wave-parent">
             <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -140,6 +150,7 @@
         </div>
     </div>
 
+    <div id="map"></div>
 
 
     <footer class="main-footer">
@@ -148,6 +159,9 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVe7eSqeJTEczY7ctqonFWW-iLomIVYYI&callback=initMap">
+    </script>
+
     <script src='./js/jscript.js'> </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
