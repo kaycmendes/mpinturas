@@ -1,0 +1,53 @@
+/* styles.css | http://127.0.0.1:5500/css/styles.css */
+
+.banner {
+    /* height: 98vh; */
+    height: 84vh;
+}
+
+.container {
+    /* margin-top: 14vh; */
+    margin-top: -25vh;
+}
+
+.banner-info {
+    /* top: 2rem; */
+    top: -3rem;
+}
+
+.col-md-7>h3:nth-child(1) {
+    text-align: center;
+}
+
+
+.wrap {
+    width: 100%;
+    margin: auto;
+    font-size: medium;
+}
+
+/* bootstrap.min.css | https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css */
+
+p {
+    padding: 1em;
+}
+
+
+
+
+@media only screen and (max-width: 769px) {
+
+    .container {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    /* pages.css | http://127.0.0.1:5500/css/pages.css */
+
+    p {
+        /* padding: 1em; */
+        padding: 0.5em;
+    }
+}
