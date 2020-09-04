@@ -558,4 +558,8 @@ h3 {
     margin-top: 2vh;
 
   }
+
+  .logobar {
+    height: 60px;
+  }
 }
