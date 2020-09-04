@@ -35,7 +35,7 @@ p {
 
 
 
-@media (max-width: 969px) {
+@media screen and (max-width: 769px) {
 
     .container {
         padding-right: 0px;

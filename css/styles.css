@@ -489,7 +489,7 @@ h3 {
   /* The width is the width of the web page */
 }
 
-@media (max-width: 969px) {
+@media (max-width: 769px) {
 
   .banner h1 {
       /* font-size: 5.1em; */
@@ -544,8 +544,14 @@ h3 {
   width: 95%;
 }
 
-.form-container {
-  /* padding: 1em; */
+.jumbotron {
+  padding: 0;
+  }
+
+
+.wave-parent {
+  overflow: hidden;
 }
+
 
 }
