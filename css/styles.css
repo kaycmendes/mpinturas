@@ -462,6 +462,7 @@ h3 {
   margin: auto;
   padding: 0;
   border-bottom: 4px solid #ffde61;
+  background: #fff;
 }
 
 .navbar.navbar-expand-sm.bg-light.navbar-light {
