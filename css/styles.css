@@ -115,7 +115,7 @@ a {
 .banner-btn {
   font-size: 1.5em;
   margin-top: 1em;
-  width: max-content;
+  width: 75%;
   margin: 49px auto;
   border-radius: 6px;
   padding: 0.5em;
@@ -504,6 +504,7 @@ background:#f8f9fa ;
   .banner h4 {
     /* font-size: 1.7em; */
     font-size: 1em;
+    width: 79%;
   }
 
   .wave {
