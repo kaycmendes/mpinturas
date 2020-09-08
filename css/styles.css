@@ -88,6 +88,9 @@ a {
   margin: auto;
   font-size: 5.1em;
   text-shadow: 0.2px 2px 22px #22222240;
+  background: #000000cf;
+  border-radius: 7px;
+  padding: 10px;
 }
 
 .banner h4 {
@@ -95,10 +98,11 @@ a {
   font-weight: 500;
   width: 52%;
   margin: 37px auto;
-  padding-top: 10px;
+  padding: 15px;
   color: #000;
   border-top: 5px solid #fff;
-  background: #ede4c1e6;
+  background: #ffde61d4;
+  border-radius: 11px;
   font-size: 1.7em;
 }
 
@@ -107,15 +111,10 @@ a {
   padding: 25px;
 }
 
-
-
-
-
-
 .banner-btn {
-  font-size: 1.5em;
+  font-size: 1.7em;
   margin-top: 1em;
-  width: 75%;
+  width: max-content;
   margin: 49px auto;
   border-radius: 6px;
   padding: 0.5em;
@@ -126,6 +125,7 @@ a {
   color: black;
   background-color: #ffff;
   transition: width 1s, height 1s, ease 0.5s;
+
 }
 
 .banner-btn:hover a {
@@ -175,7 +175,7 @@ a {
 
 .main-footer {
   margin-top: auto;
-  background: rgba(160, 170, 164, 0.23);
+  background: rgb(222, 225, 230);
   text-align: center;
   padding: 20px;
   font-size: 12px;
@@ -449,7 +449,6 @@ h3 {
 
 .wrap {
   padding: 10px;
-  font-size: 14px;
   line-height: 31px;
 }
 
@@ -458,15 +457,15 @@ h3 {
 }
 
 .bg-light {
-  width: 85%;
+  width: 70%;
   margin: auto;
   padding: 0;
   border-bottom: 4px solid #ffde61;
 
 }
 
-header{
-background:#f8f9fa ;
+header {
+  background: #f8f9fa;
 }
 
 .navbar.navbar-expand-sm.bg-light.navbar-light {
@@ -488,11 +487,39 @@ background:#f8f9fa ;
 
 #map {
   height: 400px;
-  width: 75%;
+  width: auto;
   margin: auto;
   border-radius: 15px;
   /* The width is the width of the web page */
 }
+
+.texture {
+  background: url('../image/texture.jpg');
+  background-size: auto;
+  background-size: cover;
+  border-radius: 0px;
+}
+
+.exterior {
+  background: url('../image/livingroom2.jpg');
+  background-size: auto;
+  background-size: cover;
+  border-radius: 0px;
+}
+
+.interior {
+  background: url('../image/livingroom.jpg');
+  background-size: auto;
+  background-size: cover;
+  border-radius: 0px;
+}
+.door {
+  background: url('../image/house.jpg');
+  background-size: auto;
+
+  border-radius: 0px;
+}
+
 
 @media (max-width: 769px) {
 
@@ -504,7 +531,6 @@ background:#f8f9fa ;
   .banner h4 {
     /* font-size: 1.7em; */
     font-size: 1em;
-    width: 79%;
   }
 
   .wave {
@@ -568,4 +594,29 @@ background:#f8f9fa ;
   .logobar {
     height: 60px;
   }
+
+  .bg-light {
+    width: 85%;
+  }
+
+  .banner-btn {
+    width: 75%;
+  }
+
+  p {
+    font-size: 17px;
+  }
+
+
+  .container>h3:nth-child(5) {
+    margin-bottom: 20px;
+    border-top: 2px solid #00000078;
+    border-top: 2px solid rgba(119, 136, 153, 0.493);
+    padding-top: 2em;
+  }
+
+  .banner h1{
+    border-radius: 0;
+  }
+
 }
