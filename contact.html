@@ -57,36 +57,36 @@
         <fieldset class="form-container">
             <div class="cleanfix">
                 <legend>Info: </legend>
-                <form class="form" action="index.html">
+                <form method="POST" data-netlify="true" class="form" action="index.html">
                     <div class="name-container">
                         <label for="nameInput">Nome</label>
-                        <input type="text" name="user_name" id="name" placeholder="Ex: Maria">
+                        <input type="text" name="name" name="user_name" id="name" placeholder="Ex: Maria">
                     </div>
                     <div class="email-container">
                         <label for="emailInput">E-mail</label>
-                        <input type="email" name="user_email" id="Email" placeholder="email@example.com">
+                        <input type="email" name="email" id="Email" placeholder="email@example.com">
                     </div>
 
                     <div class="form-group">
                         <label for="inputAddress2">Bairro</label>
-                        <input type="text" class="form-control" id="inputAddress2" placeholder="Ex: Santa Efigênia">
+                        <input input type="text" name="address" class="form-control" id="inputAddress2" placeholder="Ex: Santa Efigênia">
                     </div>
 
                     <div class="form-group">
                         <label for="inputAddress">Endereço</label>
-                        <input type="text" class="form-control" id="inputAddress" placeholder="Ex: Rua c - 1239">
+                        <input type="text" name="address2" class="form-control" id="inputAddress" placeholder="Ex: Rua c - 1239">
                     </div>
 
 
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" name="gridcheckboxs" id="gridcheckbox"
+                        <input class="form-check-input" type="checkbox" name="Exterior" value="Exterior"
                             value="option2">
                         <label class="form-check-label" for="gridcheckbox">
                             Pintura exterior
                     </div>
                     </label>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" name="gridcheckboxs" id="gridcheckbox"
+                        <input class="form-check-input" type="checkbox" name="Interior" value="Interior"
                             value="option2">
                         <label class="form-check-label" for="gridcheckbox">
                             Pintura interior
@@ -95,7 +95,7 @@
 
                     <div class="description-container">
                         <label for="inputAddress2">Descrição do serviço</label>
-                        <textarea name="user_text_area" id="text_area" cols="35" rows="10"
+                        <textarea type="text" name="Descrição" id="text_area" cols="35" rows="10"
                             placeholder="Ex: Todos os quartos... "></textarea>
                     </div>
 
