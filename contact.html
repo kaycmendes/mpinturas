@@ -56,28 +56,33 @@
     <div class="container-wrapper">
         <fieldset class="form-container">
             <div class="cleanfix">
-                <legend>Info: </legend>
+                <legend>Informação: </legend>
                 <form method="POST" data-netlify="true" class="form" action="index.html">
                     <div class="name-container">
-                        <label for="nameInput">Nome</label>
+                        <label for="nameInput">Nome:</label>
                         <input type="text" name="name" name="user_name" id="name" placeholder="Ex: Maria">
                     </div>
                     <div class="email-container">
-                        <label for="emailInput">E-mail</label>
+                        <label for="emailInput">E-mail:</label>
                         <input type="email" name="email" id="Email" placeholder="email@example.com">
                     </div>
 
                     <div class="form-group">
-                        <label for="inputAddress2">Bairro</label>
+                        <label for="inputAddress2">Bairro:</label>
                         <input input type="text" name="address" class="form-control" id="inputAddress2" placeholder="Ex: Santa Efigênia">
                     </div>
 
                     <div class="form-group">
-                        <label for="inputAddress">Endereço</label>
+                        <label for="inputAddress">Endereço:</label>
                         <input type="text" name="address2" class="form-control" id="inputAddress" placeholder="Ex: Rua c - 1239">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress">Numero:</label>
+                        <input type="text" name="Numero" class="form-control" id="inputAddress" placeholder="Ex: 98818-6674">
                     </div>
 
 
+                    <label>Serviço: </label>
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" name="Exterior" value="Exterior"
                             value="option2">
@@ -92,6 +97,23 @@
                             Pintura interior
                         </label>
                     </div>
+                    
+                    <label>Receber resposta via:</label><br>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="Email" value="Email">
+                        <label class="form-check-label" for="gridcheckbox">
+                            Email
+                    </div>
+                    </label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="WhatsApp" value="WhatsApp">
+                        <label class="form-check-label" for="gridcheckbox">
+                            WhatsApp
+                        </label>
+                    </div>
+          
+
+
 
                     <div class="description-container">
                         <label for="inputAddress2">Descrição do serviço</label>
