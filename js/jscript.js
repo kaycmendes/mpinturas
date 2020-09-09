@@ -4,8 +4,9 @@ function initMap() {
   var uluru = { lat: -19.9167, lng: -43.9345 };
   // The map, centered at Uluru
   var map = new google.maps.Map(
-    document.getElementById('map'), { zoom: 11, center: uluru,  disableDefaultUI: true
-    });
+    document.getElementById('map'), {
+    zoom: 11, center: uluru, disableDefaultUI: true
+  });
 
   // The marker, positioned at Uluru
   var marker = new google.maps.Marker({
@@ -13,4 +14,3 @@ function initMap() {
     icon: { path: google.maps.SymbolPath.CIRCLE, scale: 177, strokeColor: 'black', fillColor: 'yellow', strokeWeight: 1, fillOpacity: 0.5 }
   });
 }
-
